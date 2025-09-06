@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup as bs
 import pandas as pd
 
-url = "https://news.ycombinator.com/"
+url = "https://news.ycombinator.com/ "
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36", #^ Esto es para esconder que hacemos scrap
