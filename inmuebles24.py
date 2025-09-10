@@ -25,7 +25,7 @@ install_path = # path for install the driver
 cache_manager = DriverCacheManager(install_path)
 driver = webdriver.Chrome(
     service=Service(ChromeDriverManager(cache_manager=cache_manager).install()),
-    options=opts
+    options=opts  
 )
 
 url = 'https://www.inmuebles24.com/inmuebles-en-renta-en-ciudad-de-mexico.htmll'
